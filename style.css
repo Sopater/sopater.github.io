@@ -1,16 +1,67 @@
+.navbar li a:hover {
+  background: #bebebe;
+  color: black;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.navbar li a {
+  text-align: center;
+}
 .jumbotron {
   padding-top: 6rem;
-  background-color: #bebebe;
+  background-image: url(6.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0 -100px;
+  width: 100%;
+}
+.jumbotron h1 {
+  color: aliceblue;
+}
+.jumbotron p {
+  color: aliceblue;
 }
 
+#about {
+  padding-top: 4rem;
+}
 #projects {
   background-color: #bebebe;
+  padding-top: 5rem;
 }
-
+#projects .card {
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  box-shadow: 4px 2px #888888;
+}
+#projects .card video {
+  width: 100%;
+  height: 251px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+#projects .card img {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+#contact {
+  padding-top: 4rem;
+}
 footer {
   background-color: #bebebe;
+  font-size: 20px;
 }
-
-section {
-  padding-top: 5rem;
+footer img {
+  width: 25px;
+  height: 25px;
+}
+footer a:link {
+  text-decoration: none;
+}
+footer #copy {
+  font-size: 10px;
 }
